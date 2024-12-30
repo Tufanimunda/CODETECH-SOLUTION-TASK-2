@@ -10,18 +10,37 @@ Duration:Dec17 to Jan 17
 
 Mentor:Neela Santosh Kumar
 
-Overview
 
-The project is a simple calculator application developed in Python. It performs basic arithmetic operations: addition, subtraction, multiplication, and division. The calculator is designed to handle whole numbers ranging from 0 to 50. The code is compatible with Python 2, ensuring broader accessibility.
+Project Overview
+This project focuses on developing a Python program to manage student grades. It allows users to input grades, calculate averages, and determine the overall performance, represented by letter grades or GPA.
 
 Key Activities
+Grade Input:
 
-User Input: The application prompts the user to input two numbers and an arithmetic operator. Arithmetic Operations: Based on the operator provided, the application performs the corresponding arithmetic operation. Output: The result of the operation is displayed to the user. Error Handling: The code includes basic checks for specific operations, particularly for addition with zero.
+Enables entry of grades for multiple subjects or assignments.
+Average Calculation:
 
+Calculates the average grade across all entries.
+Performance Display:
+
+Outputs average grade with the corresponding letter grade or GPA.
 Technology Used
-
-Programming Language: Python (specifically Python 2 for compatibility). Input Handling: Utilizes input() for user input, with a fallback to raw_input() for Python 2 compatibility. Arithmetic Logic: Conditional statements (if statements) to determine the operation and calculate results.
-
+Programming Language: Python
+Data Management: Uses dictionaries and lists for efficient grade storage and processing.
+Calculations: Implements arithmetic operations to derive averages and determine letter grades.
+Interaction: Uses input() for text-based user input and output.
 Key Insights
+Demonstrates proficiency in Python with a focus on data structures and computational logic.
+Employs a modular structure for easy scalability and maintenance.
+Potential upgrades include:
+Graphical grade representation (e.g., charts).
+Development of a user-friendly GUI interface.
+Integration with external tools for importing/exporting grades.
 
-The current implementation is limited to whole numbers and lacks support for floating-point arithmetic, which is noted as a future improvement. The use of extensive conditional statements for each possible input combination can be optimized for better readability and maintainability. The project serves as a foundational exercise in programming logic, user interaction, and basic arithmetic operations in Python.
+OUTPUT
+![WhatsApp Image 2024-12-30 at 22 21 03_0acd7fce](https://github.com/user-attachments/assets/a84cfc36-5434-4029-9e73-dc2bab53e104)
+![WhatsApp Image 2024-12-30 at 22 21 03_1abfc0bf](https://github.com/user-attachments/assets/e6ac92e4-50fa-4757-ba43-9b67e635c583)
+![WhatsApp Image 2024-12-30 at 22 21 03_e044cbd1](https://github.com/user-attachments/assets/b72e6571-a9c7-4c11-b5d9-44b98d8ae3ab)
+
+
+
